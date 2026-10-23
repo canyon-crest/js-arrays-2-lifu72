@@ -87,8 +87,7 @@ for (i = 0; i < numbers.length; i++) {
     average += numbers[i]
 }
 average = average/numbers.length
-    str = numbers[i]
-    for (let i = 1;i<numbers.length;i++ ){
+    for (i=0;i<numbers.length;i++){
         str+=numbers[i]
         if (i!==4) {
             str += ", ";
